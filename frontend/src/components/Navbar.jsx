@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Activity, Menu, X } from 'lucide-react';
+import { Activity, Menu, X, FileDown } from 'lucide-react';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -24,6 +24,7 @@ const Navbar = () => {
                         <Link to="/about" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">About</Link>
                         <Link to="/predict" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Predict Scan</Link>
                         <Link to="/behavior" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Behavior Analysis</Link>
+                        <Link to="/combined-report" className="text-gray-600 hover:text-blue-600 font-medium transition-colors flex items-center gap-1"><FileDown className="h-4 w-4" />Combined Report</Link>
                         <Link to="/contact" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Contact</Link>
                         <Link
                             to="/predict"
@@ -51,6 +52,7 @@ const Navbar = () => {
                         <Link to="/about" className="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium">About</Link>
                         <Link to="/predict" className="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium">Predict Scan</Link>
                         <Link to="/behavior" className="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium">Behavior Analysis</Link>
+                        <Link to="/combined-report" className="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium">Combined Report</Link>
                         <Link to="/contact" className="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium">Contact</Link>
                     </div>
                 </div>

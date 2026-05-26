@@ -7,6 +7,7 @@ import PredictPage from './pages/PredictPage';
 import DashboardPage from './pages/DashboardPage';
 import ContactPage from './pages/ContactPage';
 import BehaviorPage from './pages/BehaviorPage';
+import CombinedReportPage from './pages/CombinedReportPage';
 
 function App() {
   const location = useLocation();
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/predict" element={<PredictPage />} />
         <Route path="/behavior" element={<BehaviorPage />} />
+        <Route path="/combined-report" element={<CombinedReportPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
